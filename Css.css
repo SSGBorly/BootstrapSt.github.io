@@ -1,0 +1,89 @@
+body{
+    font-family: sans-serif;
+    background-color: rgb(170,207,243);
+}
+
+.navbar{
+    background-color: rgb(242,197,35);
+    box-shadow: 5px 5px 15px black;
+    position: sticky;
+    z-index: 1000;
+     
+}
+
+.container-fluid{
+    position: sticky;
+    z-index: 1000;
+}
+
+.nav-link{
+    color: rgb(242,0,17);
+    font-size: 20px;
+    margin: 1rem;
+}
+
+.navbar-brand img{
+    height: 50px;
+    width: 70px;
+    border-radius: 50%;
+}
+
+.form-control{
+    background-color: rgb(87,175,230);
+}
+
+.form-control:hover{
+    background: lightblue; 
+    
+}
+
+.carousel-item img{
+    box-shadow: 5px 5px 15px black;
+    padding-top: 1rem;
+}
+
+/* .container{
+    border: 1px solid red;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+} */
+
+.crew{
+/* border: 1px solid red; */
+display: flex;
+justify-content: center;
+padding-top: 2rem;
+margin-top: 2rem; 
+}
+
+.card{
+    /* border: 1px solid red; */
+    background-color:rgb(255,255,255);
+    justify-content: center;
+    
+    transition: all ease 1s;
+}
+
+.card:hover{
+    margin-top: -15px;
+    box-shadow: 5px 5px 15px black;
+}
+
+ .row2 { 
+    /* border: 1px solid green; */
+    display: flex;
+}
+
+.Crew2{
+    /* border: 1px solid yellow; */
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    padding-top: 2rem;
+}
+
+.table{
+    /* border: 10px solid red; */
+    margin-top: 10rem;
+}
